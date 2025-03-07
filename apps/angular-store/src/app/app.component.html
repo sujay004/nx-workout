@@ -1,2 +1,7 @@
-<app-nx-welcome></app-nx-welcome>
+<nav>
+  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a> |
+  <a routerLink="/products" routerLinkActive="active">Products</a> |
+  <a routerLink="/orders" routerLinkActive="active">Orders</a>
+</nav>
+
 <router-outlet></router-outlet>
