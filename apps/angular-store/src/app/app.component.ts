@@ -4,7 +4,7 @@ import { appRoutes } from './app.routes';
 
 @Component({
   standalone: true,
-  imports: [RouterModule.forRoot(appRoutes)],
+  imports: [RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
